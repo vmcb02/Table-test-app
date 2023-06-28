@@ -1,0 +1,46 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.div{
+  display: flex;
+  height: 800px;
+  width: 850px;
+  padding: 7px;
+  background: linear-gradient(rgb(50, 46, 117), rgb(88, 76, 121));
+  text-align: center;
+  justify-content: center;
+  border: 2px solid wheat;
+  border-radius: 4%;
+}
+
+tr{
+  padding: 15px;
+}
+
+td{
+  padding: 15px;
+  border: 1px solid wheat;
+}
+
+.div2{
+  height: 30px;
+  display: flex;
+}
+
+img{
+  flex: 1;
+  object-fit: cover;
+}
+
+th{
+  padding: 15px;
+  background: rgb(168, 164, 164);
+}
+
+tr:hover{
+  background: rgb(19, 16, 48);
+  color: wheat;
+  cursor: pointer;
+}
