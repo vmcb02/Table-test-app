@@ -1,4 +1,4 @@
- export const dato = [
+[
     {
       "id": 0,
       "firstName": "Daenerys",
@@ -108,5 +108,5 @@
       "family": "House Stark",
       "image": "catelyn-stark.jpg",
       "imageUrl": "https://thronesapi.com/assets/images/catelyn-stark.jpg"
-    },
-]
+    }
+  ]

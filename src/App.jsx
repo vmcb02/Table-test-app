@@ -1,8 +1,8 @@
-import { Table } from './Table'
+import { TableContainer } from './TableContainer';
 
 export const App = () => {
 
   return (
-   <Table />
+   <TableContainer />
   )
 }

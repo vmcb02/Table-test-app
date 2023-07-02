@@ -1,19 +1,11 @@
-import { useEffect, useState } from "react";
-import { AddData } from "./AddData";
-import { data } from './data';
+import { TableItem } from "./TableItem";
+import Characters from './Characters.json';
 
-export const Table = () => {
-  
-    const [datas, setDatas] = useState([]);
 
-    const newDatas = () => {
-        setDatas(data);
-    }
 
-    useEffect(() => {
-      newDatas();
-    }, [])
-    
+export const TableContainer = () => {
+   
+const charactersDatas = Characters;
 
   return (
     <>
@@ -29,8 +21,8 @@ export const Table = () => {
                 </tr>
         
             {
-                datas.map((val) => (
-                    <AddData key={val.id}
+                charactersDatas.map((val) => (
+                    <TableItem key={val.id}
                     { ...val }
                     />
                 ))
